@@ -37,10 +37,10 @@ jobs:
 
       - name: Run Weather Email Automation
         env:
-          WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
-          GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          GMAIL_USERNAME: "thahrinah05@gmail.com"
+          GMAIL_APP_PASSWORD: "cwjp dkou chbq vlqj"
+          EMAIL_TO: "kannanraji1808@gmail.com"
           DEFAULT_CITY: "Chennai, India"
+          WEATHER_API_KEY: "YOUR_WEATHER_API_KEY"
         run: |
           python weather.py --now
